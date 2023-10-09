@@ -1,0 +1,138 @@
+ 
+ 
+ header{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    top: 0;
+ }
+h1{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: font1;
+    
+}
+
+
+
+section{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+fieldset{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+input{
+    background-color: aquamarine;
+    width: 42%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.inp{
+    width: 60%;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+    text-align: center;
+}
+a{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(61, 59, 55);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+label{
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (min-width: 280px) and (max-width: 890px) {
+    section{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    fieldset{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        width: 80%;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    input{
+        background-color: aquamarine;
+        width: 80%;
+        height: 40px;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+    .inp{
+        width: 80%;
+        height: 39px;
+        padding-left: 40px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    a{
+        height: 30px;
+        width: 50%;
+        background-color: rgb(61, 59, 55);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+    label{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+}

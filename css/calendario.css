@@ -1,0 +1,67 @@
+
+body{
+    background-image: url("../img/buo.jpg");
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+   
+}
+
+
+.titulo{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+tbody{
+    background-color: rgba(255, 255, 255, 0.641);
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+  
+
+}
+thead{
+    background-color: aliceblue;
+    font-size: 20px;
+    width: 80%;
+    font-family: font1;
+}
+a{
+   
+   background-color: aliceblue;
+    height: auto;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+  
+   
+   
+}
+#a{
+ 
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+
+}
+td{
+    font-weight: 800;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+@media screen and (min-width:280px) and (max-width:890px) {
+
+    table{
+        width: 100%;
+    }
+    
+}
+    

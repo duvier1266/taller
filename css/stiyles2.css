@@ -1,0 +1,185 @@
+body{
+    background-image: url("../img/palmera.jpeg");
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    
+}
+
+
+header{
+    background-color: rgb(117, 112, 112);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    display: flex;
+    min-height: 80px ;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    
+}
+#encabesado{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 30px;
+    color: aliceblue;
+    font-family: font1;
+}
+   
+    
+
+
+ 
+    
+
+#menu{
+    
+    background-color: transparent;
+    margin-left: 30px;
+    
+  
+    
+    
+}
+a{
+    width: 50%;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    margin-right: 10px;
+    font-family: font1;
+}
+a:hover{
+    color: white;
+}
+#logo{
+    border-radius: 30px;
+    margin-right: 5px;
+}
+#divpie{
+    width: 100%;
+
+    
+    
+}
+#pie{
+    margin: auto;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#parrafo{
+   
+    
+  
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    font-family: font1;
+    
+    
+    
+    
+    color: beige;
+    margin-top: 2px;
+   
+
+}
+#derechos{
+    background-color: rgb(175, 153, 153);
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 80px;
+    border-radius: 10%;
+    
+   
+
+}
+
+p{
+    font-weight: 700;
+}
+#contacto{
+   
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    
+    
+
+   
+
+}
+#numero{
+  
+  
+    width: 40%;
+    font-weight: 600;
+   color: rgb(0, 0, 0);
+    justify-content: center;
+   
+}
+
+
+    
+@media (max-width:490px){
+    header{
+        width: 100%;
+    }
+
+    #menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #logo{
+        height: 40px;
+        width: 40px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #numero{
+        color: aliceblue;
+    }
+    #parrafo{
+        color: black;
+    }
+    #pie{
+        width: 80%;
+    }
+
+
+
+}
+
+
+
+@media (max-width:890px){
+
+    #menu{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+
+}
